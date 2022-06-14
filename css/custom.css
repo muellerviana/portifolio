@@ -1,0 +1,26 @@
+#about{
+    background-color: rgb(17, 17, 17);
+
+}
+
+#projects{
+    background-color: blueviolet;
+    
+}
+
+.card{
+    background-color: blue;
+}
+
+#contacts{
+    background-color: rgb(127, 214, 255);
+}
+
+.content-block{
+height: 700px;
+}
+
+footer {
+    background-color: black;
+    height: 400px;
+}
