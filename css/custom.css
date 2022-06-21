@@ -1,9 +1,13 @@
+
 #cover{
+    height: calc(100vh - 55px);
     background-color: rgb(15, 14, 15);
     color: rgb(244, 247, 250);
     margin-top: 65px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;   
 }
+
+
 #cover img{
     border-radius: 50%;
     width: 60%;
@@ -13,11 +17,11 @@ span {
     color: rgb(219, 25, 99);
 }
 
-
 #about{
-    background-color: rgb(29, 28, 29);
+    background-image: linear-gradient(to right, rgb(212, 187, 141) , rgb(218, 199, 115));
     color: rgb(244, 247, 250);
     font-family: 'Roboto', sans-serif;
+    height: 100vh;
 }
 #about img{
     border-radius: 50%;
@@ -26,10 +30,10 @@ span {
 }
 
 #projects{
-    background-color: rgb(15, 14, 15);
+    background-image: linear-gradient(to bottom right, rgb(179, 32, 179) , rgb(0, 255, 242));
     color: rgb(244, 247, 250);
-    margin-top: 70px;
     font-family: 'Roboto', sans-serif;
+    height: 100vh;
 }
 #projects img{
     border-radius: 50%;
@@ -37,6 +41,23 @@ span {
     margin: 10%;
 }
 
-footer {
- height: 160px;
+#contact{ 
+    background-color: rgb(207, 111, 55);
+    color: rgb(244, 247, 250);
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
 }
+#contact img{
+    border-radius: 50%;
+    width: 60%;
+    margin: 10%;
+}
+
+
+
+footer {
+    background-color: rgb(37, 37, 37);
+    color: white;
+    height: 40vh;
+}
+
