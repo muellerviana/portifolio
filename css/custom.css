@@ -1,29 +1,42 @@
-#about{
-    background-color: rgb(17, 17, 17);
-    color: aliceblue;
+#cover{
+    background-color: rgb(15, 14, 15);
+    color: rgb(244, 247, 250);
+    margin-top: 65px;
+    font-family: 'Roboto', sans-serif;
+}
+#cover img{
+    border-radius: 50%;
+    width: 60%;
+    margin: 10%;
+}
+span {
+    color: rgb(219, 25, 99);
+}
 
+
+#about{
+    background-color: rgb(29, 28, 29);
+    color: rgb(244, 247, 250);
+    font-family: 'Roboto', sans-serif;
+}
+#about img{
+    border-radius: 50%;
+    width: 60%;
+    margin: 10%;
 }
 
 #projects{
-    background-color: blueviolet;
-    
+    background-color: rgb(15, 14, 15);
+    color: rgb(244, 247, 250);
+    margin-top: 70px;
+    font-family: 'Roboto', sans-serif;
 }
-
-.card{
-    background-color: blue;
-}
-
-#contacts{
-    background-color: rgb(127, 214, 255);
-}
-
-.content-block{
-height: 700px;
+#projects img{
+    border-radius: 50%;
+    width: 60%;
+    margin: 10%;
 }
 
 footer {
-    background-color: black;
-    height: 400px;
+ height: 160px;
 }
-
-
