@@ -18,10 +18,12 @@ span {
 }
 
 #about{
-    background-image: linear-gradient(to right, rgb(212, 187, 141) , rgb(218, 199, 115));
-    color: rgb(244, 247, 250);
+    background-image: linear-gradient(to right, rgb(247, 229, 195) , rgb(255, 236, 149));
+    color: rgb(76, 80, 85);
     font-family: 'Roboto', sans-serif;
     height: 100vh;
+    font-size: 2em;
+
 }
 #about img{
     border-radius: 50%;
@@ -29,17 +31,21 @@ span {
     margin: 10%;
 }
 
-#projects{
+#about span {
+    text-decoration: bold;
+}
+
+
+/* #projects{
     background-image: linear-gradient(to bottom right, rgb(179, 32, 179) , rgb(0, 255, 242));
-    color: rgb(244, 247, 250);
+    color: rgb(50, 104, 158);
     font-family: 'Roboto', sans-serif;
     height: 100vh;
 }
+
 #projects img{
-    border-radius: 50%;
-    width: 60%;
-    margin: 10%;
-}
+   width: 200px;
+} */
 
 #contact{ 
     background-color: rgb(207, 111, 55);
@@ -61,3 +67,6 @@ footer {
     height: 40vh;
 }
 
+.box-text {
+       margin-top: 14%;
+}
