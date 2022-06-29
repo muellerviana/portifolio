@@ -1,7 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@700&family=Roboto&display=swap');
 
 #cover{
     height: calc(100vh - 55px);
-    background-color: rgb(15, 14, 15);
+    background-color: rgb(0, 0, 0);
     color: rgb(244, 247, 250);
     margin-top: 65px;
     font-family: 'Roboto', sans-serif;   
@@ -14,15 +15,17 @@
     margin: 10%;
 }
 span {
-    color: rgb(219, 25, 99);
+    color: rgb(146, 15, 15);
 }
 
 #about{
-    background-image: linear-gradient(to right, rgb(247, 229, 195) , rgb(255, 236, 149));
-    color: rgb(76, 80, 85);
+  background-color: rgb(214, 214, 214);
+    /* background-image: linear-gradient(to right, rgb(187, 27, 27) , rgb(206, 134, 134)); */
+    color: rgb(88, 9, 9);
     font-family: 'Roboto', sans-serif;
-    height: 100vh;
+    min-height: 100vh;
     font-size: 2em;
+   
 
 }
 #about img{
@@ -37,37 +40,62 @@ span {
 
 
 #projects{
-    background-image: linear-gradient(to bottom right, rgb(179, 32, 179) , rgb(0, 255, 242));
-    color: rgb(255, 253, 226);
+    color: rgb(48, 48, 48);
     font-family: 'Roboto', sans-serif;
     height: 100vh;
     text-align: center;
     padding-top: 20px;
+
+    
+    
    
 }
 
-#projects h1{
-    margin-top: 4%;
+.section-title h1{
+    margin-top: 6%;
+    font-family: 'Anek Malayalam', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 3em;
+    font-weight: bolder;
+    
 }
 
 #contact{ 
-    background-color: rgb(207, 111, 55);
+    background-color: rgb(95, 5, 5);
     color: rgb(244, 247, 250);
     font-family: 'Roboto', sans-serif;
-    height: 100vh;
+    height: 50vh;
+    padding-top: 10px;
 }
 #contact img{
-    border-radius: 50%;
-    width: 60%;
-    margin: 10%;
+    width: 7%;
 }
 
+
+#contact i {
+   font-size: 5em;
+   margin: 1%;
+   color: #ffffffdc;
+   margin-top: 5%;
+  
+}
+
+#contact i:hover {
+  color: #fcfcfc;
+  text-shadow: 2px 2px 4px #ffffff83;
+  }
 
 
 footer {
     background-color: rgb(37, 37, 37);
     color: white;
     height: 40vh;
+    text-align: center;
+}
+
+#conteudo {
+  padding: 5%;
 }
 
 .box-text {
@@ -102,16 +130,18 @@ footer {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
     padding: 0px;
     text-align: center;
-    background-color: #f1f1f1;
+    background-color: #ffffffcc;
     color:black;
     width: 70%;
-    filter: grayscale(60%);
+    filter: grayscale(0%);
     margin-top: 30%;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    transition-duration: 0.5s;  
-    background-color: rgba(240, 240, 240, 0.781);
+    transition-duration: 0.5s; 
+    border-radius: 8px; 
+  
+    
   }
 
   .card:hover {
@@ -133,3 +163,6 @@ footer {
       margin-bottom: 20px;
     }
   }
+
+
+  
