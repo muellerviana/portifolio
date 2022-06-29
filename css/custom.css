@@ -88,7 +88,7 @@ span {
 
 
 footer {
-    background-color: rgb(37, 37, 37);
+    background-color: rgb(5, 2, 24);
     color: white;
     height: 40vh;
     text-align: center;
@@ -133,15 +133,13 @@ footer {
     background-color: #ffffffcc;
     color:black;
     width: 70%;
-    filter: grayscale(0%);
+    filter: grayscale(30%);
     margin-top: 30%;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
     transition-duration: 0.5s; 
-    border-radius: 8px; 
-  
-    
+    border-radius: 8px;     
   }
 
   .card:hover {
@@ -154,6 +152,9 @@ footer {
     
   } 
 
+  .git-logo:hover {
+    width: 100px;
+  }
 
   /* Responsive columns - one column layout (vertical) on small screens */
   @media screen and (max-width: 600px) {
