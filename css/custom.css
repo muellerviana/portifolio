@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@700&family=Roboto&display=swap');
 
+body {
+
+}
+
 #cover{
     height: calc(100vh - 55px);
     background-color: rgb(0, 0, 0);
